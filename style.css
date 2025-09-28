@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'CoolFont';
+  src: url('https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2');
+}
+
+body {
+  font-family: 'CoolFont', Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: #eee;
+}
+
+header {
+  background: #5e0606;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.vinetas, ol {
+  list-style-position: inside;
+  text-align: left;           
+  display: inline-block;      
+  margin: 0 auto;             
+  padding: 0;
+}
+
+
+h2 {
+  color: #ff0000;
+}
+
+.sabores {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.caja {
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+}
+
+table {
+  width: 80%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+}
+.palomita {
+    color: rgb(18, 196, 18);
+
+}
+
+.tache{
+    color: #ff0000;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 0.5rem;
+}
+
+th {
+  background: #5e0606;
+  color: #fff;
+}
+
+img {
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+form {
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.3rem;
+  border-radius: 4px;
+  border: none;
+}
+
+input[type="submit"] {
+  background: #5e0606;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+input[type="submit"]:hover {
+  background: #ff0000;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
